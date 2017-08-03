@@ -1,0 +1,33 @@
+{
+  "name": "esper",
+  "description": "Another tool for exporting animated units from Final Fantasy: Brave Exvius",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "pack": "pkg ."
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "csv": "^1.1.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-plus": "^3.0.1",
+    "jimp": "^0.2.24",
+    "yargs": "^8.0.2",
+    "yargs-parser": "^7.0.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.1.3"
+  },
+  "pkg": {
+    "scripts": [
+      "bin/*",
+      "lib/**/*"
+    ],
+    "targets": [
+      "latest-win-x64"
+    ]
+  },
+  "bin": {
+    "esper": "bin/esper.js"
+  }
+}
