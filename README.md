@@ -1,5 +1,7 @@
 # Esper
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Seldszar/esper.svg)](https://greenkeeper.io/)
+
 > Another tool for exporting animated units from *Final Fantasy: Brave Exvius*.
 
 ## Pre-requisites
